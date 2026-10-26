@@ -36,3 +36,8 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .idea/
+
+# ---- 只发布 ppo_llm（旧实验目录留在本地 ✓）----
+PPO/
+ppo_lab/
+dodge_bandit/
