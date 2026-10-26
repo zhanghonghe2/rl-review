@@ -1,0 +1,38 @@
+# ---- 模型权重（9.6 GB ✗）----
+PPO/Qwen*/
+PPO/qwen*/
+PPO/gsm8k/
+*.safetensors
+*.pt
+*.bin
+*.gguf
+
+# ---- 数据集（ppo_llm/data 111 MB + math_data 12 MB ✗）----
+ppo_llm/data/
+ppo_llm/math_data/
+ppo_llm/*.jsonl
+ppo_llm/test*.jsonl
+
+# ---- 训练产物 ----
+ppo_llm/runs/
+ppo_lab/runs/
+*.log
+*.err
+
+# ---- 密钥 ----
+.env
+.env.*
+*secret*
+*credential*
+
+# ---- 工具/临时 ----
+.qwen/
+.agents/
+
+# ---- 系统/缓存 ----
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
