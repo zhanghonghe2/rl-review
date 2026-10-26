@@ -7,11 +7,18 @@ PPO/gsm8k/
 *.bin
 *.gguf
 
-# ---- 数据集（ppo_llm/data 111 MB + math_data 12 MB ✗）----
-ppo_llm/data/
+# ---- 数据：**只提交测试集 + 小型派生集**（约 11 MB ✓）----
+# 可再生成的不进仓库 ✗（生成脚本见 ppo_llm/data/README.md ✓）
+ppo_llm/data/gsm8k_train*
+ppo_llm/data/math_train*.jsonl
+ppo_llm/data/math_prm_train.jsonl
+ppo_llm/data/hard_cand.jsonl
+ppo_llm/data/hard500.jsonl
+ppo_llm/data/pool_*.jsonl
+!ppo_llm/data/*.hits.jsonl
+ppo_llm/data/prm_split/
 ppo_llm/math_data/
 ppo_llm/*.jsonl
-ppo_llm/test*.jsonl
 
 # ---- 训练产物 ----
 ppo_llm/runs/
