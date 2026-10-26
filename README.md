@@ -9,7 +9,7 @@
 | **[`ppo_llm/REPORT.md`](ppo_llm/REPORT.md)** | ★ 技术报告：主结果、测量学、工程加速、**静默 bug 分类学**、**失败的实验** |
 | **[`ppo_llm/RECORD.md`](ppo_llm/RECORD.md)** | 全过程记录 + 顶部**基线表**（模型 × 测试集 × 贪心/pass@1/pass@8）|
 | [`ppo_llm/PPO_LLM_PRM.md`](ppo_llm/PPO_LLM_PRM.md) | ★ **大模型 PPO + 过程奖励的实现说明**（公式、超参、诊断、坑）|
-| [`ppo_llm/PRINCIPLES.md`](ppo_llm/PPO_LLM_PRM.md) | 从事故里长出来的工作准则（含成本/收益判据）|
+| [`ppo_llm/PRINCIPLES.md`](ppo_llm/PRINCIPLES.md) | 从事故里长出来的工作准则（含成本/收益判据）|
 
 ## 一句话结果
 
